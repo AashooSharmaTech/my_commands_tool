@@ -1,6 +1,4 @@
-Creating a GitHub README for your project is a great way to introduce it to potential users and contributors. Below is a template for a README for your command practice tool. You can customize it and add more details as needed for your project:
 
-```markdown
 # My Commands Practice Tool
 
 Welcome to the My Commands Practice Tool! This tool is designed to help you improve your typing speed and accuracy by practicing various sets of commands related to DevOps, Ethical Hacking, and basic terminal commands.
