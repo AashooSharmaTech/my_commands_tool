@@ -45,6 +45,9 @@ Welcome to the My Commands Practice Tool! This tool is designed to help you impr
    python3 main.py
    ```
 
+## Screenshot
+![Screenshot](./myFiles/tool_test.png)
+
 ## Usage
 
 1. Choose the type of commands you want to practice from the main menu.
