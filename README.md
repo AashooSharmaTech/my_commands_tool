@@ -42,7 +42,7 @@ Welcome to the My Commands Practice Tool! This tool is designed to help you impr
 
 3. Run the tool:
    ```sh
-   python3 tool.py
+   python3 main.py
    ```
 
 ## Usage
