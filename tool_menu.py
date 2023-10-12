@@ -1,6 +1,16 @@
-# tool_menu.py
+# import random
+# import time
+# import json
+# import datetime
+from mycolors import *
+from leaderboard import *
 
-# Function to display the main menu and get user choice
+# ...
+from startPractice import *
+
+
+# ...
+
 def display_main_menu():
     print("Welcome to the Command Practice Tool")
     while True:
@@ -17,8 +27,7 @@ def display_main_menu():
         else:
             print("Invalid choice. Please choose a valid option.")
 
-# Function to display practice level options for DevOps commands
-def display_devops_practice_options():
+def display_practice_level_options():
     print("Choose practice level:")
     print("1. 10 commands practice")
     print("2. 30 commands practice")
@@ -28,4 +37,23 @@ def display_devops_practice_options():
         return level_choice
     else:
         print("Invalid practice level. Please choose a valid option.")
+
+
+
+# Function to display menu for basic command options
+def display_basic_commands_menu(mypractice_name='basic_commands'):
+    print("Choose terminal commands options:")
+    print("1. Termux")
+    print("2. Windows CMD")
+    print("3. Windows PowerShell")
+    print("4. Linux Terminal")
+
+    terminal_option = int(input("Enter the option number: "))
+    if terminal_option in (1, 2, 3, 4):
+        practice_basic_commands(terminal_option)
+    else:
+        print("Invalid terminal option. Please choose a valid option.")
+
+
+       
 

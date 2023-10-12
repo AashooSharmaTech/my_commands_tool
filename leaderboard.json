@@ -1,21 +1,51 @@
 [
     {
-        "user_name": "abhishek",
-        "score": 10,
-        "total_time": 14.5,
-        "time": "21/03/2023 03:45 PM"
-    },
-    {
-        "user_name": "Rohan",
-        "score": 10,
-        "total_time": 16.5,
-        "time": "22/03/2023 06:45 PM"
-    },
-    {
-        "user_name": "aman",
+        "user_name": "Aashoo",
         "score": 9,
-        "total_time": 14.5,
-        "time": "21/03/2023 05:40 PM"
+        "total_time": 28.304407358169556,
+        "time": "12/10/2023 11:48 PM",
+        "practice_name": ""
+    },
+    {
+        "user_name": "ashoo",
+        "score": 10,
+        "total_time": 37.07,
+        "time": "13/10/2023 12:06 AM",
+        "practice_name": ""
+    },
+    {
+        "user_name": "as",
+        "score": 10,
+        "total_time": 29.691784858703613,
+        "time": "13/10/2023 12:17 AM",
+        "practice_name": ""
+    },
+    {
+        "user_name": "rahul",
+        "score": 4,
+        "total_time": 17.827409029006958,
+        "time": "13/10/2023 12:39 AM",
+        "practice_name": ""
+    },
+    {
+        "user_name": "my as devops",
+        "score": 8,
+        "total_time": 218.40954875946045,
+        "time": "13/10/2023 12:44 AM",
+        "practice_name": ""
+    },
+    {
+        "user_name": "Abhi sharma",
+        "score": 10,
+        "total_time": 27.991531372070312,
+        "time": "13/10/2023 01:08 AM",
+        "practice_name": ""
+    },
+    {
+        "user_name": "Aashoo sharma",
+        "score": 10,
+        "total_time": 28.50215244293213,
+        "time": "13/10/2023 01:28 AM",
+        "practice_name": "basic_commands_termux"
     }
 ]
-

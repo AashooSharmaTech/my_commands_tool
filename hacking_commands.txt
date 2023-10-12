@@ -34,4 +34,3 @@ metasploit auxiliary/scanner/smb/smb_version
 wpscan --url http://example.com --enumerate u
 enum4linux -a 192.168.1.100
 dirb http://example.com
-

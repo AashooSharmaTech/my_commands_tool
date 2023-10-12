@@ -92,4 +92,3 @@ docker-compose logs <service>
 docker-compose pull
 docker-compose push
 docker-compose run <service> <command>
-
