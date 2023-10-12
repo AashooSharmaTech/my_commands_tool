@@ -9,6 +9,7 @@ Welcome to the My Commands Practice Tool! This tool is designed to help you impr
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Screenshot](#Screenshot)
 - [Usage](#usage)
 - [Leaderboard](#leaderboard)
 - [Contributing](#contributing)
@@ -45,8 +46,9 @@ Welcome to the My Commands Practice Tool! This tool is designed to help you impr
    python3 main.py
    ```
 
+
 ## Screenshot
-![Screenshot](./myFiles/tool_test.png)
+![Screenshot](myFiles/tool_test.png)
 
 ## Usage
 
