@@ -1,0 +1,95 @@
+docker ps
+docker pull
+git pull
+docker build
+docker run
+docker stop
+docker-compose up
+docker-compose down
+docker images
+kubectl get pods
+kubectl create deployment
+kubectl scale deployment
+kubectl expose service
+docker-compose build
+docker-compose start
+docker-compose stop
+docker-compose logs
+git clone
+git commit -m
+git push
+git branch
+npm install
+npm start
+npm test
+npm run build
+ansible-playbook
+ansible-galaxy install
+curl
+wget
+scp
+ssh-keygen
+ssh-copy-id
+rsync
+apt-get update
+apt-get install
+systemctl start
+systemctl stop
+systemctl enable
+systemctl disable
+journalctl -u
+docker-compose logs
+docker inspect
+docker exec
+docker network ls
+docker volume ls
+docker system prune
+docker service create
+docker service ls
+docker service scale
+docker node ls
+docker stack deploy
+docker service ps
+kubectl get nodes
+kubectl describe pod
+kubectl get services
+kubectl get configmaps
+kubectl get deployments
+kubectl get namespaces
+kubectl get secrets
+kubectl get persistentvolumes
+kubectl get persistentvolumeclaims
+kubectl get ingresses
+kubectl get events
+kubectl get pods --all-namespaces
+kubectl apply -f <filename>.yaml
+kubectl delete -f <filename>.yaml
+kubectl get jobs
+kubectl get cronjobs
+kubectl logs <pod-name>
+kubectl exec -it <pod-name> -- /bin/sh
+kubectl get daemonsets
+kubectl get statefulsets
+helm install <chart>
+helm upgrade <release> <chart>
+helm list
+helm delete <release>
+helm history <release>
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+ansible-playbook <playbook.yml>
+ansible-galaxy init <role>
+ansible-vault encrypt <file>
+ansible-vault decrypt <file>
+ansible-inventory -i <inventory.ini> --list
+docker-compose ps
+docker-compose exec <service> <command>
+docker-compose down --volumes
+docker-compose restart
+docker-compose logs <service>
+docker-compose pull
+docker-compose push
+docker-compose run <service> <command>
+

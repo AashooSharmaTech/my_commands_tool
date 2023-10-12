@@ -1,0 +1,11 @@
+Get-ChildItem
+Set-Location
+New-Item
+Remove-Item
+Copy-Item
+Move-Item
+Clear-Host
+Get-NetIPAddress
+Test-NetConnection
+Get-Process
+

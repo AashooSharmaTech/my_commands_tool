@@ -1,0 +1,11 @@
+dir
+cd
+mkdir
+del
+copy
+move
+cls
+ipconfig
+ping
+tasklist
+
