@@ -42,7 +42,7 @@ Welcome to the My Commands Practice Tool! This tool is designed to help you impr
 
 3. Run the tool:
    ```sh
-   python tool.py
+   python3 tool.py
    ```
 
 ## Usage
@@ -74,4 +74,3 @@ Enjoy practicing your commands and improving your skills with the My Commands Pr
 [Visit the repository](https://github.com/AashooSharmaTech/my_commands_tool)
 ```
 
-You can copy this template and replace placeholders with actual content specific to your project. Make sure to update the section titles and descriptions to match your project's features and usage instructions.
